@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-400 mb-4 mt-3 leading-relaxed">
-              From oil changes to engine diagnostics, our fully equipped vans ensure your vehicle runs smoothly without the hassle of visiting a workshop.
+             Based in the heart of Leicester, Unit Four specialises in enhancing vehicle performance, reliability, and efficiency. 
             </p>
             <div className="flex space-x-4">
               <a

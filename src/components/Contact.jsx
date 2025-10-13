@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -172,7 +172,7 @@ export default function Contact() {
                     <h4 className="text-xl font-bold text-blue-600">
                       Address
                     </h4>
-                    <p className="text-blue-600 hover:text-[#4ab8e9] whitespace-pre-line">
+                    <p className="text-blue-600 hover:text-red-600 whitespace-pre-line">
                       {address}
                     </p>
                   </div>
@@ -188,7 +188,7 @@ export default function Contact() {
                   <h4 className="text-xl font-bold text-blue-600">Phone</h4>
                   <a
                     href={phoneHref}
-                    className="text-blue-600 hover:text-[#4ab8e9] transition"
+                    className="text-blue-600 hover:text-red-600 transition"
                   >
                     {phoneDisplay}
                   </a>
@@ -196,7 +196,7 @@ export default function Contact() {
               </div>
 
               {/* Email */}
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 mb-6">
                 <div className="bg-gray-100 dark:bg-neutral-700 text-black dark:text-white p-3 rounded-lg shadow-sm">
                   <FaEnvelope size={24} />
                 </div>
@@ -206,9 +206,23 @@ export default function Contact() {
                     href={`https://mail.google.com/mail/?view=cm&fs=1&to=${emailDisplay}&su=Inquiry%20of%20Website`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-[#4ab8e9] transition"
+                    className="text-blue-600 hover:text-red-600 transition"
                   >
                     {emailDisplay}
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="bg-gray-100 dark:bg-neutral-700 text-black dark:text-white p-3 rounded-lg shadow-sm">
+                  <FaClock size={24} />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-blue-600">We Are Available</h4>
+                  <a
+                    className="text-blue-600  transition"
+                  >
+                    Mon-Sat: 09.00 am to 6.30 pm
                   </a>
                 </div>
               </div>
