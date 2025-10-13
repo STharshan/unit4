@@ -173,7 +173,7 @@ export default function CarServicesSection() {
     icon: FaTools,
     title: "Stage 1 and Stage 2 Power Increases",
     desc: "Through expert remapping, we boost your engine’s power and torque with Stage 1 or Stage 2 tuning — for faster, more exciting performance.",
-    description: "Through expert remapping, we boost your engine’s power and torque with Stage 1 or Stage 2 tuning — for faster, more exciting performance.",
+    description: "Through expert remapping, we boost your engine’s power and torque with Stage 1 or Stage 2 tuning - for faster, more exciting performance.",
     features: "",
   },
   {

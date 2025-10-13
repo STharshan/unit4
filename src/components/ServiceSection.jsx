@@ -15,7 +15,7 @@ const services = [
   {
     id: 2,
     title: 'FULL–SERVICE SOLUTIONS',
-    desc: "Whether it’s fault code diagnostics, stop-start system repairs, or routine servicing — we handle it all under one roof, saving you time and hassle.",
+    desc: "Whether it’s fault code diagnostics, stop-start system repairs, or routine servicing - we handle it all under one roof, saving you time and hassle.",
     icon: <FiSettings className="text-4xl mx-auto mb-4 text-blue-600" />,
   },
   {
@@ -48,7 +48,7 @@ const ServiceSection = () => {
           Why Choose Us?
         </h2>
         <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto">
-          At Unit Four, we do more than just fix cars — we unlock their full potential. Here’s why drivers across Leicester trust us with their vehicles:
+          At Unit Four, we do more than just fix cars - we unlock their full potential. Here’s why drivers across Leicester trust us with their vehicles:
         </p>
       </div>
 
