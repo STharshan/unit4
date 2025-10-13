@@ -10,25 +10,25 @@ const services = [
     id: 1,
     title: 'PERFORMANCE–DRIVEN EXPERTISE',
     desc: "From Stage 1 and 2 remaps to DPF, EGR, and AdBlue solutions, we specialise in fine-tuning your car for maximum power, efficiency, and responsiveness.",
-    icon: <FaCar className="w-16 sm:w-20 md:w-24 mx-auto mb-4 text-blue-600" />,
+    icon: <FaCar className="text-4xl mx-auto mb-4 text-blue-600" />,
   },
   {
     id: 2,
     title: 'FULL–SERVICE SOLUTIONS',
     desc: "Whether it’s fault code diagnostics, stop-start system repairs, or routine servicing — we handle it all under one roof, saving you time and hassle.",
-    icon: <FiSettings className="w-16 sm:w-20 md:w-24 mx-auto mb-4 text-blue-600" />,
+    icon: <FiSettings className="text-4xl mx-auto mb-4 text-blue-600" />,
   },
   {
     id: 3,
     title: 'PRECISION. PASSION. CARE.',
     desc: "We treat every car like our own. With top-tier tools and genuine passion for performance, you can count on results that feel as good as they drive.",
-    icon: <FiTool className="w-16 sm:w-20 md:w-24 mx-auto mb-4 text-blue-600" />,
+    icon: <FiTool className="text-4xl mx-auto mb-4 text-blue-600" />,
   },
   {
     id: 4,
     title: 'LOCAL, TRUSTED, PROVEN',
     desc: "Based in the heart of Leicester, we’ve built our name on quality, honesty, and customer satisfaction. When you come to Unit Four, you come to the best.",
-    icon: <MdOutlinePayment className="w-16 sm:w-20 md:w-24 mx-auto mb-4 text-blue-600" />,
+    icon: <MdOutlinePayment className="text-4xl mx-auto mb-4 text-blue-600" />,
   },
 ];
 
