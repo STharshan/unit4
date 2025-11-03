@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-400 mb-4 mt-3 leading-relaxed">
-             Based in the heart of Leicester, Unit Four specialises in enhancing vehicle performance, reliability, and efficiency. 
+              Based in the heart of Leicester, Unit Four specialises in enhancing vehicle performance, reliability, and efficiency.
             </p>
             <div className="flex space-x-4">
               <a
@@ -48,7 +48,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-bold mb-4 bg-gradient-to-r from-blue-600 to-[#0072ff] bg-clip-text text-transparent">
+            <h3 className="font-bold mb-4 bg-linear-to-r from-blue-600 to-[#0072ff] bg-clip-text text-transparent">
               Services
             </h3>
             <ul className="space-y-2 text-gray-400">
@@ -71,7 +71,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-bold mb-4 bg-gradient-to-r from-blue-600 to-[#0072ff] bg-clip-text text-transparent">
+            <h3 className="font-bold mb-4 bg-linear-to-r from-blue-600 to-[#0072ff] bg-clip-text text-transparent">
               Contact Info
             </h3>
             <ul className="space-y-4 text-gray-400">
