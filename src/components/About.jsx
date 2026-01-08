@@ -85,7 +85,7 @@ const AboutSection = () => {
                   Sam Ferries
                 </h4>
                 <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm">
-                  Founder, RS Mobile Services
+                  Founder
                 </p>
               </div>
             </div>
