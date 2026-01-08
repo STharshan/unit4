@@ -25,7 +25,7 @@ const ServiceModal = ({ isOpen, onClose, service }) => {
           </div>
           <button
             onClick={onClose}
-            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 active:bg-gray-100 dark:active:bg-gray-800 rounded-full transition-colors"
           >
             <FaTimes className="w-6 h-6 text-gray-600 dark:text-gray-300" />
           </button>
@@ -58,7 +58,7 @@ const ServiceCard = ({ service, onClick, aosDelay }) => {
       data-aos="fade-up"
       data-aos-delay={aosDelay}
       className={`${service.bgColor || 'bg-white dark:bg-gray-800'
-        } p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer transform hover:-translate-y-1 hover:shadow-[#4ab8e9] active:shadow-[#4ab8e9] dark:hover:shadow-blue-600 dark:active:shadow-blue-600`}
+        } p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md active:shadow-md transition-all cursor-pointer transform hover:-translate-y-1 hover:shadow-[#4ab8e9] active:-translate-y-1 active:shadow-[#4ab8e9] dark:hover:shadow-blue-600 dark:active:shadow-blue-600`}
       onClick={onClick}
     >
       <div className="mb-4">
@@ -79,15 +79,6 @@ const ServiceCard = ({ service, onClick, aosDelay }) => {
       >
         {service.desc}
       </p>
-
-      <button
-        className={`block font-semibold text-sm md:text-base transition-colors border-b-2 pb-1 ${isHighlighted
-            ? 'text-white border-white hover:opacity-80'
-            : 'text-blue-600 border-blue-600 hover:text-[#4ab8e9] hover:border-[#4ab8e9]'
-          } mt-4`}
-      >
-        Read More
-      </button>
     </div>
   );
 };

@@ -111,8 +111,8 @@ const PrivacyPolicy = () => {
                     </p>
                     <div className="text-white">
                         <p><strong>UNIT 4</strong></p>
-                        <p>Email: <a href="mailto:needhelprepair@gmail.com" className="text-blue-600 hover:underline">needhelprepair@gmail.com</a></p>
-                        <p>Phone: 07526227041</p>
+                        <p>Email: <a href="mailto:info@unit-three.co.uk" className="text-blue-600 hover:underline">info@unit-three.co.uk</a></p>
+                        <p>Phone: 07771238883</p>
                         <p>Address: Unit 3 Wesley St, Leicester LE4 5QG</p>
                     </div>
                     <p className="mt-2 text-white">

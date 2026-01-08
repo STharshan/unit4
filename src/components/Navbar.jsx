@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <img
             src="/logo.webp"
-            alt="RS Mobile Services Logo"
+            alt=" Logo"
             className="w-36 h-12 object-contain"
           />
         </div>

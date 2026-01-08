@@ -103,10 +103,10 @@ export default function Contact() {
     e.preventDefault();
     if (errors.phone || errors.email) return;
 
-    const waMessage = `Hello, \n\nName: ${formData.fullName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCar Registration: ${formData.carReg}\nMake & Model: ${formData.makeModel}\nLocation: ${formData.location}\nMessage: ${formData.message}`;
+    const waMessage = `Hello,\nName: ${formData.fullName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCar Registration: ${formData.carReg}\nMake & Model: ${formData.makeModel}\nLocation: ${formData.location}\nMessage: ${formData.message}`;
 
     // ✅ Updated WhatsApp number here
-    const waHref = `https://wa.me/447526227041?text=${encodeURIComponent(
+    const waHref = `https://wa.me/447771238883?text=${encodeURIComponent(
       waMessage
     )}`;
 
@@ -124,9 +124,9 @@ export default function Contact() {
   };
 
 
-  const phoneDisplay = "07526227041";
-  const phoneHref = "tel:447526227041";
-  const emailDisplay = "needhelprepair@gmail.com";
+  const phoneDisplay = "07771238883";
+  const phoneHref = "tel:+44 7771 238883";
+  const emailDisplay = "info@unit-three.co.uk";
   const address = `Unit 3 Wesley St, Leicester LE4 5QG`;
 
   return (

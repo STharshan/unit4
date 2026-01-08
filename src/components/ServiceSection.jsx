@@ -59,7 +59,7 @@ const ServiceSection = () => {
             key={service.id}
             data-aos="fade-up"
             data-aos-delay={index * 100}
-            className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 sm:p-8 text-center transition-transform transform hover:-translate-y-1 hover:shadow-blue-400 dark:hover:shadow-blue-600 duration-300"
+            className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 sm:p-8 text-center transition-transform transform hover:-translate-y-1 active:-translate-y-1 hover:shadow-blue-400 active:shadow-blue-400 dark:hover:shadow-blue-600 dark:active:shadow-blue-600 duration-300"
           >
             {service.icon}
             <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-2">{service.title}</h3>

@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="flex items-center justify-center  space-x-3">
               <img
                 src="/logo.webp" // replace with your logo path
-                alt="RS Mobile Services Logo"
+                alt="unit 4 Logo"
                 className="w-25 h-15 text-center" // adjust size as needed
               />
             </div>
@@ -90,20 +90,20 @@ export default function Footer() {
               <li className="flex items-center space-x-3">
                 <FaPhoneAlt className="text-blue-600" size={18} />
                 <a
-                  href="tel:+441780917600"
+                  href="tel:+44 7771 238883"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  07526227041
+                  07771238883
                 </a>
               </li>
 
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-blue-600" size={18} />
                 <a
-                  href="mailto:needhelprepair@gmail.com"
+                  href="mailto:info@unit-three.co.uk"
                   className="hover:text-white transition-colors duration-300 break-all"
                 >
-                  needhelprepair@gmail.com
+                  info@unit-three.co.uk
                 </a>
               </li>
             </ul>

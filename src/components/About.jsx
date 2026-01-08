@@ -82,7 +82,7 @@ const AboutSection = () => {
               />
               <div>
                 <h4 className="text-gray-900 dark:text-gray-100 font-semibold text-sm sm:text-base">
-                  Sam Ferries
+                  Max
                 </h4>
                 <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm">
                   Founder

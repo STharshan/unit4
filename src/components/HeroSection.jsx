@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
-import { FiArrowRight, FiPlay } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -36,17 +37,21 @@ const HeroSection = () => {
 
             <div className="flex items-center gap-5 pt-4">
               <a href="/#contact">
-                <button className="border-2 border-blue-500 px-6 py-3 rounded-full flex items-center gap-2 group hover:bg-blue-600 transition font-semibold">
-                  <span className="text-sm lg:text-base transition-transform duration-300 group-hover:-translate-x-1">
-                    Book Your Mobile Service Today
+                <button className="border-2 border-blue-600 px-6 py-3 rounded-full flex items-center gap-2 group hover:bg-transparent hover:text-black bg-blue-600 transition font-semibold">
+                  <span className="text-sm lg:text-base transition-transform duration-300 group-hover:-translate-x-1 group-active:-translate-x-1">
+                    Book Your Vehicle In Today
                   </span>
-                  <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1 mt-1" />
+                  <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1 group-active:translate-x-1 mt-1" />
                 </button>
               </a>
 
-              <button className="w-14 h-14 rounded-full border-2 border-gray-400 flex items-center justify-center hover:border-blue-600 transition">
-                <FiPlay className="text-2xl" />
-              </button>
+              <a
+                href="https://wa.me/447771238883"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 rounded-full border-2 border-blue-600 flex items-center justify-center hover:border-blue-600 transition">
+                <FaWhatsapp className="text-2xl text-green-500 hover:scale-105 active:scale-105" />
+              </a>
             </div>
           </div>
 
