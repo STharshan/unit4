@@ -124,8 +124,8 @@ export default function Contact() {
   };
 
 
-  const phoneDisplay = "07771238883";
-  const phoneHref = "tel:+44 7771 238883";
+  const phoneDisplay = "01162669749";
+  const phoneHref = "tel:+441162669749";
   const emailDisplay = "info@unit-three.co.uk";
   const address = `Unit 3 Wesley St, Leicester LE4 5QG`;
 
