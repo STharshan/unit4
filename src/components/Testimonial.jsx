@@ -1,7 +1,5 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const testimonials = [
     {
@@ -28,14 +26,6 @@ const testimonials = [
 
 export default function Testimonials() {
   const scrollRef = useRef(null);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      offset: 100,
-    });
-  }, []);
 
   const scroll = (direction) => {
     const { current } = scrollRef;
@@ -99,6 +89,7 @@ export default function Testimonials() {
                       <img
                         src="logo.webp"
                         alt={testimonial.name}
+                        loading="lazy"
                         className="w-22 mt-3 h-10 mx-auto object-cover"
                       />
                     </div>

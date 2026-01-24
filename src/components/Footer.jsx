@@ -13,6 +13,7 @@ export default function Footer() {
               <img
                 src="/logo.webp" // replace with your logo path
                 alt="unit 4 Logo"
+                loading="lazy"
                 className="w-25 h-15 text-center" // adjust size as needed
               />
             </div>

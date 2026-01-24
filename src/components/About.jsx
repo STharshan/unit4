@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaToolbox } from "react-icons/fa6";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const AboutSection = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true, easing: "ease-in-out" });
-  }, []);
 
   return (
     <section
@@ -28,6 +23,7 @@ const AboutSection = () => {
           >
             <img
               src="image.png"
+              loading="lazy"
               alt="Workshop background"
               className="w-full h-full object-cover opacity-80 dark:opacity-60 transition-opacity duration-500"
             />
@@ -37,6 +33,7 @@ const AboutSection = () => {
           <img
             src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&h=500&fit=crop"
             alt="Mechanic"
+            loading="lazy"
             className="relative z-10 rounded-sm shadow-lg w-[260px] sm:w-[280px] md:w-[320px] 
                        h-[340px] sm:h-[380px] md:h-[420px] object-cover mt-10 ml-10 sm:mt-12 md:mt-16"
           />
@@ -78,6 +75,7 @@ const AboutSection = () => {
               <img
                 src="logo.webp"
                 alt="Sam Ferries"
+                loading="lazy"
                 className="w-18 h-10  object-cover flex-shrink-0"
               />
               <div>

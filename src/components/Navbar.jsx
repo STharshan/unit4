@@ -37,6 +37,7 @@ const Navbar = () => {
           <img
             src="/logo.webp"
             alt=" Logo"
+            loading="lazy"
             className="w-36 h-12 object-contain"
           />
         </div>

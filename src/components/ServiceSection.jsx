@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import { FaCar } from 'react-icons/fa';
 import { FiSettings, FiTool } from 'react-icons/fi';
 import { MdOutlinePayment } from 'react-icons/md';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const services = [
   {
@@ -33,9 +31,6 @@ const services = [
 ];
 
 const ServiceSection = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true, easing: 'ease-in-out' });
-  }, []);
 
   return (
     <section className="py-8 px-4 sm:px-6 lg:px-16 bg-white dark:bg-black text-black dark:text-gray-100 transition-colors duration-300">

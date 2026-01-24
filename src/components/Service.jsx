@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaOilCan, FaWrench, FaTools, FaClipboardList, FaCog, FaSyncAlt, FaCar, FaBolt, FaTachometerAlt } from "react-icons/fa";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const ServiceModal = ({ isOpen, onClose, service }) => {
   if (!isOpen || !service) return null;
@@ -86,15 +84,6 @@ const ServiceCard = ({ service, onClick, aosDelay }) => {
 export default function CarServicesSection() {
   const [selectedService, setSelectedService] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: 'ease-in-out',
-      once: true,
-      offset: 100,
-    });
-  }, []);
 
   const services = [
   {

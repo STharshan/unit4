@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { FaWhatsapp } from "react-icons/fa";
 
 const HeroSection = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1200, once: true });
-  }, []);
 
   return (
     <div className="bg-white dark:bg-black" id="hero">
@@ -16,13 +11,15 @@ const HeroSection = () => {
 
         {/* 🔹 Background Video */}
         <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/bg.mp4"
           autoPlay
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover "
+          poster="/fall.png"
+          onError={(e) => (e.currentTarget.style.display = "none")}
         >
-          <source src="/bg.mp4" type="video/mp4" />
         </video>
 
         {/* 🔹 Dark Overlay */}

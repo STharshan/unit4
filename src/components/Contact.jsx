@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaClock } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function InputField({
-  label,
   type = "text",
   name,
   placeholder,
@@ -69,14 +66,6 @@ export default function Contact() {
   const phoneRegex = /^(?:\+44|0)[1-9]\d{8,9}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-      offset: 100,
-    });
-  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -105,7 +94,6 @@ export default function Contact() {
 
     const waMessage = `Hello,\nName: ${formData.fullName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCar Registration: ${formData.carReg}\nMake & Model: ${formData.makeModel}\nLocation: ${formData.location}\nMessage: ${formData.message}`;
 
-    // ✅ Updated WhatsApp number here
     const waHref = `https://wa.me/447771238883?text=${encodeURIComponent(
       waMessage
     )}`;

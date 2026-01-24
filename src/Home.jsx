@@ -5,7 +5,6 @@ import AboutUsSection from './components/About'
 import Testimonials from './components/Testimonial'
 import Service from './components/Service'
 import Contact from './components/Contact'
-import FindUs from './components/Findus'
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <Service />
       <Testimonials />
       <Contact />
-    {/* <FindUs /> */}
     </div>
   )
 }
