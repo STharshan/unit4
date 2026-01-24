@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { FaOilCan, FaWrench, FaTools, FaClipboardList, FaCog, FaSyncAlt, FaCar, FaBolt, FaTachometerAlt } from "react-icons/fa";
+import React, { useState } from 'react';
+import { FaOilCan, FaWrench, FaTools, FaClipboardList, FaCog, FaSyncAlt, FaCar, FaBolt, FaTachometerAlt, FaTimes } from "react-icons/fa";
 
 const ServiceModal = ({ isOpen, onClose, service }) => {
   if (!isOpen || !service) return null;

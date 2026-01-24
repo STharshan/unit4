@@ -113,7 +113,7 @@ export default function Footer() {
 
         {/* Bottom Divider */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 UNIT 4. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} UNIT 4. All rights reserved.</p>
         </div>
 
         {/* Bottom Bar */}
